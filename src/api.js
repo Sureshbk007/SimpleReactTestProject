@@ -15,13 +15,3 @@ export const getPublishedBlogs = async () => {
   );
   return response.data;
 };
-
-export const getBlogDetails = async (navigation) => {
-  const response = await axios.get(
-    `${API_BASE_URL}/shared/blog/getBlogByBlogNavigation`,
-    {
-      params: { navigation },
-    }
-  );
-  return response.data;
-};
