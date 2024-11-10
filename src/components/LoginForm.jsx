@@ -38,7 +38,9 @@ function LoginForm() {
 
   return (
     <>
-      <h1 className="text-3xl font-bold text-center text-slate-500 my-5">Login to See Blogs</h1>
+      <h1 className="text-3xl font-bold text-center text-slate-500 my-5">
+        Login to See Blogs
+      </h1>
       <form
         onSubmit={handleSubmit}
         className="flex flex-col gap-4 p-4 max-w-md mx-auto min-h-[60vh]"
@@ -52,7 +54,7 @@ function LoginForm() {
           required
         />
         <input
-          type="text"
+          type="password"
           value={password}
           onChange={(e) => setPassword(e.target.value)}
           placeholder="Password"
