@@ -1,4 +1,3 @@
-// src/components/LoginForm.jsx
 import React, { useEffect, useState } from "react";
 import { useAuth } from "../context/AuthContent";
 import { useNavigate } from "react-router-dom";
